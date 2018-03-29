@@ -1,0 +1,22 @@
+
+state={
+	id=766
+	name="STATE_766"
+	manpower = 2572456
+	
+	state_category = wasteland
+	resources={
+		rubber=3 # was: 4
+	}
+	history={
+		owner = GER
+		buildings = {
+			infrastructure = 2
+		}
+
+	}
+
+	provinces={
+		7963 11194
+	}
+}

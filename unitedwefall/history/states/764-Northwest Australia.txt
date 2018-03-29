@@ -1,0 +1,21 @@
+
+state={
+	id=764
+	name="STATE_764"
+	manpower = 30000
+	
+	state_category = pastoral
+
+	history={
+		owner = TML
+		buildings = {
+			infrastructure = 1
+
+		}
+		add_core_of = AST
+	}
+
+	provinces={
+		2201 5125 5207 8152 8209 8247 10937 10950 10958 11016 12993
+	}
+}
