@@ -55,7 +55,7 @@ news_event = {
 	}
 }
 
-#Oredson Died
+#Oredson Died (WaltIsStartingToNotHalt)
 news_event = {
 	id = uwfnews.3
 	title = uwfnews.3.t

@@ -1,35 +1,125 @@
 ﻿add_namespace = america
 
+#Oredons dies, plus CantHaltTheWalt vs Military Rule
 country_event = {
 	id = america.1
 	title = america.1.t
 	desc = america.1.d
+	picture = GFX_news_event_006
 
 	is_triggered_only = yes
 
+	#CantHaltTheWalt
 	option  = {
 		name = america.1.a
+		ai_chance = {
+			modifier = {
+				ai_will_do = 80
+			}
+		}
 		add_ideas = {
 			USA_oredson_assassinated
 		}
 		create_country_leader = {
 			name = "Walt Disney"
 			desc = "POLITICS_FRANKLIN_DELANO_ROOSEVELT_DESC"
-			#picture = "Portrait_USA_Walt_Disney.dds"
+			picture = "Portrait_USA_Walt_Disney.dds"
 			expire = "2006.1.1"
 			ideology = conservatism
 			traits = {
 				#
 			}
 		}
+		hidden_effect = {
+			news_event = { hours = 12 id = uwfnews.3 }
+		}
 	}
 
+	#Military Rule
 	option = {
 		name = america.1.b
+		ai_chance = {
+			modifier = {
+				ai_will_do = 20
+			}
+		}
 		add_ideas = {
 			USA_oredson_assassinated
 			USA_military_rule
 		}
 		USA = { country_event = { days = 1 id = america.2 } }
+		hidden_effect = {
+			news_event = { hours = 12 id = uwfnews.3 }
+		}
 	} 
+}
+
+#Military Rule selected
+country_event = {
+	id = america.2
+	title = america.1.t
+	desc = america.1.d
+	picture = GFX_news_event_006
+
+	is_triggered_only = yes
+
+	#Mr. Omar becomes leader
+	option = {
+		name = america.2.a
+		ai_chance = {
+			modifier = {
+				ai_will_do = 33
+			}
+		}
+		create_country_leader = {
+			name = "Omar Bradley"
+			desc = ""
+			#picture = "Portrait_USA_Omar_Bradley.dds"
+			expire = "2006.1.1"
+			ideology = stratocratic_dictator
+			traits = {
+				#
+			}
+		}
+	}
+
+	#Senor Ira chioce
+	option = {
+		name = america.2.b
+		ai_chance = {
+			modifier = {
+				ai_will_do = 33
+			}
+		}
+		create_country_leader = {
+			name = "Ira Eaker"
+			desc = ""
+			#picture = "Portrait_USA_Ira_Eaker.dds"
+			expire = "2006.1.1"
+			ideology = stratocratic_dictator
+			traits = {
+				#
+			}
+		}
+	}
+
+	#Sir Raymond is de wei
+	option = {
+		name = america.2.c
+		ai_chance = {
+			modifier = {
+				ai_will_do = 33
+			}
+		}
+		create_country_leader = {
+			name = "Raymond Spraunce"
+			desc = ""
+			#picture = "Portrait_USA_Raymond_Spraunce.dds"
+			expire = "2006.1.1"
+			ideology = stratocratic_dictator
+			traits = {
+				#
+			}
+		}
+	}
 }
