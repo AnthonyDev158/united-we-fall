@@ -8,7 +8,7 @@ set_technology = {
 
 set_convoys = 5
 
-1939.1.1 = {
+1964.1.1 = {
 
 	add_political_power = 1198
 	
@@ -75,8 +75,17 @@ set_politics = {
 			#banned = no #default is no
 		}
 		
-		neutrality = { 
-			popularity = 50
+		monarchism = { 
+			popularity = 15
+		}
+		populism = {
+			popularity = 10
+		}
+		theocratic = {
+			popularity = 20
+		}
+		criminal_syndicate = {
+			popularity = 5
 		}
 	}
 	
@@ -110,7 +119,7 @@ create_country_leader = {
 	name = "Abdullah bin al-Hussein"
 	desc = ""
 	picture = "gfx/leaders/JOR/Portrait_Arabia_Generic_land_3.dds"
-	ideology = despotism
+	ideology = islamic_theology
 	traits = {
 		#
 	}

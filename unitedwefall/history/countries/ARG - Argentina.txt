@@ -18,7 +18,7 @@ set_technology = {
 }
 set_country_flag = monroe_doctrine
 
-1939.1.1 = {
+1964.1.1 = {
 
 	add_political_power = 1198
 	
@@ -91,12 +91,12 @@ set_politics = {
 			popularity = 12
 		}
 		
-		neutrality = { 
+		monarchism = { 
 			popularity = 78
 		}
 	}
 	
-	ruling_party = neutrality
+	ruling_party = monarchism
 	last_election = "1931.11.8"
 	election_frequency = 72
 	elections_allowed = yes
@@ -107,13 +107,13 @@ create_country_leader = {
 	desc = "POLITICS_AGUSTIN_PEDRO_JUSTO_DESC"
 	picture = "Portrait_ARG_Edelmiro_Julian_Farrell.dds"
 	expire = "1965.1.1"
-	ideology = despotism
+	ideology = monarchist_ideology
 	traits = {
 		#
 	}
 }
 
-1939.1.1 = {
+1964.1.1 = {
 	set_politics = {
 
 		parties = {
@@ -129,12 +129,12 @@ create_country_leader = {
 			popularity = 12
 		}
 		
-		neutrality = { 
+		monarchism = { 
 			popularity = 78
 		}
 	}
 	
-	ruling_party = neutrality
+	ruling_party = monarchism
 		last_election = "1937.9.5"
 		election_frequency = 108
 		elections_allowed = yes

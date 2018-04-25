@@ -3,6 +3,8 @@
 
 oob = "BRA_1936"
 
+set_reaserch_slots = 4
+
 # Starting tech
 set_technology = {
 	infantry_weapons = 1
@@ -20,7 +22,7 @@ set_technology = {
 }
 set_country_flag = monroe_doctrine
 
-1939.1.1 = {
+1964.1.1 = {
 
 	add_political_power = 1198
 	
@@ -90,12 +92,12 @@ set_politics = {
 			popularity = 0
 		}
 		
-		neutrality = { 
+		monarchism = { 
 			popularity = 100
 		}
 	}
 	
-	ruling_party = neutrality
+	ruling_party = monarchism
 	last_election = "1934.7.17"
 	election_frequency = 48
 	elections_allowed = no
@@ -106,7 +108,7 @@ create_country_leader = {
 	desc = "POLITICS_GETULIO_VARGAS_DESC"
 	picture = "Portrait_BRA_Juscelino_Kubitscheck.dds"
 	expire = "1965.1.1"
-	ideology = despotism
+	ideology = monarchist_ideology
 	traits = {
 		#
 	}

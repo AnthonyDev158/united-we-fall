@@ -35,7 +35,7 @@ if = {
 	add_opinion_modifier = { target = ENG modifier = SAF_anti_british_sentiment }
 }
 
-1939.1.1 = {
+1964.1.1 = {
 
 	add_political_power = 1198
 	oob = "SAF_1939"
@@ -128,12 +128,12 @@ set_politics = {
 		communism = {
 			popularity = 5
 		}
-		neutrality = {
+		monarchism = {
 			popularity = 70
 		}
 	}
 	
-	ruling_party = neutrality
+	ruling_party = monarchism
 	last_election = "1933.5.17"
 	election_frequency = 60
 	elections_allowed = yes
@@ -166,12 +166,12 @@ create_country_leader = {
 			communism = {
 				popularity = 5
 			}
-			neutrality = {
+			monarchism = {
 				popularity = 69
 			}
 		}
 		
-		ruling_party = neutrality
+		ruling_party = monarchism
 		last_election = "1938.5.18"
 		election_frequency = 60
 		elections_allowed = yes
@@ -206,7 +206,7 @@ create_country_leader = {
 	desc = "POLITICS_PIXLEY_SEME_DESC"
 	picture = "Portrait_SAF_Edward_VIII.dds"
 	expire = "1965.1.1"
-	ideology = despotism
+	ideology = monarchist_ideology
 	traits = {
 		#
 	}

@@ -9,7 +9,7 @@ set_technology = {
 
 set_convoys = 10
 
-1939.1.1 = {
+1964.1.1 = {
 
 	add_political_power = 1198
 	
@@ -71,7 +71,7 @@ set_politics = {
 			popularity = 22
 			#banned = no #default is no
 		}
-		neutrality = {
+		monarchism = {
 			popularity = 17
 		}
 	}
@@ -87,13 +87,13 @@ create_country_leader = {
 	desc = "POLITICS_EDWIN_BARCLAY_DESC"
 	picture = "Portrait_SIB_George_Alexandrovich.dds"
 	expire = "2006.1.1"
-	ideology = conservatism
+	ideology = constitutional_monarchy
 	traits = {
 		#
 	}
 }
 
-1962.1.1 = {
+1964.1.1 = {
 	set_politics = {
 
 		democratic = { 
@@ -108,7 +108,7 @@ create_country_leader = {
 			popularity = 22
 			#banned = no #default is no
 		}
-		neutrality = {
+		monarchism = {
 			popularity = 17
 		}
 		

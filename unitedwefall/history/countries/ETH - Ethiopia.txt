@@ -10,7 +10,7 @@ set_technology = {
 
 set_convoys = 5
 
-1939.1.1 = {
+1964.1.1 = {
 	#generic focuses
 	complete_national_focus = army_effort
 	complete_national_focus = equipment_effort
@@ -62,12 +62,12 @@ set_politics = {
 			#banned = no #default is no
 		}
 		
-		neutrality = { 
+		monarchism = { 
 			popularity = 100
 		}
 	}
 	
-	ruling_party = neutrality
+	ruling_party = monarchism
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
@@ -78,7 +78,7 @@ create_country_leader = {
 	desc = "POLITICS_HAILE_SELASSIE_DESC"
 	picture = "Portrait_ETH_Haile_Selassie.dds"
 	expire = "2006.1.1"
-	ideology = despotism
+	ideology = monarchist_ideology
 	traits = {
 		#
 	}
@@ -114,12 +114,12 @@ create_country_leader = {
 			#banned = no #default is no
 		}
 		
-		neutrality = { 
+		monarchism = { 
 			popularity = 100
 		}
 	}
 		
-		ruling_party = neutrality
+		ruling_party = monarchism
 		last_election = "1936.1.1"
 		election_frequency = 48
 		elections_allowed = no

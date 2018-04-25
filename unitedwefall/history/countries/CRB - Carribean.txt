@@ -9,7 +9,7 @@ set_technology = {
 
 set_convoys = 10
 
-1939.1.1 = {
+1964.1.1 = {
 
 	add_political_power = 1198
 	
@@ -87,13 +87,13 @@ create_country_leader = {
 	desc = ""
 	picture = "Portrait_CRB_Fulgencio_Batista.dds"
 	expire = "2006.1.1"
-	ideology = stratocratic_dictator
+	ideology = stratocratic_dictatorship
 	traits = {
 		#
 	}
 }
 
-1939.1.1 = {
+1964.1.1 = {
 	set_politics = {
 
 		parties = {

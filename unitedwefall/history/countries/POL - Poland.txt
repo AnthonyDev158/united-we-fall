@@ -23,7 +23,7 @@ set_technology = {
 	trench_warfare = 1
 }
 
-1939.1.1 = {
+1964.1.1 = {
 	
 	if = {
 		limit = {
@@ -144,18 +144,18 @@ set_politics = {
 			popularity = 2
 		}
 		
-		neutrality = { 
+		monarchism = { 
 			popularity = 65
 		}
 	}
 	
-	ruling_party = neutrality
+	ruling_party = monarchism
 	last_election = "1935.9.8"
 	election_frequency = 36
 	elections_allowed = no
 }
 
-1939.1.1 = {
+1964.1.1 = {
 	set_politics = {
 
 		parties = {
@@ -171,12 +171,12 @@ set_politics = {
 				popularity = 2
 			}
 			
-			neutrality = { 
+			monarchism = { 
 				popularity = 78
 			}
 		}
 		
-		ruling_party = neutrality
+		ruling_party = monarchism
 		last_election = "1935.9.8"
 		election_frequency = 36
 		elections_allowed = no
@@ -188,7 +188,7 @@ create_country_leader = {
 	desc = "POLITICS_IGNACY_MOSCICKI_DESC"
 	picture = "Portrait_POL_Ina_Marie.dds"
 	expire = "2006.1.1"
-	ideology = oligarchism
+	ideology = monarchist_ideology
 	traits = {
 		#
 	}

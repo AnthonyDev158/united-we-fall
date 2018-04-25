@@ -69,7 +69,7 @@ create_import = {
 		exporter = USA
 }
 
-1939.1.1 = {
+1964.1.1 = {
 
 	add_political_power = 1198
 	
@@ -177,19 +177,19 @@ set_politics = {
 			popularity = 10
 			#banned = no #default is no
 		}
-		neutrality = {
+		monarchism = {
 			popularity = 50
 		}
 	}
 	
-	ruling_party = neutrality
+	ruling_party = monarchism
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 
 
-1939.1.1 = {
+1964.1.1 = {
 	set_politics = {
 
 		parties = {
@@ -205,12 +205,12 @@ set_politics = {
 				popularity = 10
 				#banned = no #default is no
 			}
-			neutrality = {
+			monarchism = {
 				popularity = 50
 			}
 		}
 	
-		ruling_party = neutrality
+		ruling_party = monarchism
 		last_election = "1936.1.1"
 		election_frequency = 48
 		elections_allowed = no
@@ -222,7 +222,7 @@ create_country_leader = {
 	desc = "POLITICS_Hirohito_DESC"
 	picture = "Portrait_JAP_Hirohito.dds"
 	expire = "1989.1.1"
-	ideology = despotism
+	ideology = monarchist_ideology
 	traits = {
 		warrior_code
 		emperor_showa

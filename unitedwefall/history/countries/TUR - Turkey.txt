@@ -2,7 +2,7 @@
 
 oob = "TUR_1936"
 
-set_research_slots = 3
+set_research_slots = 4
 
 add_ideas = {
 	limited_conscription
@@ -24,7 +24,7 @@ set_technology = {
 }
 
 
-1939.1.1 = {
+1964.1.1 = {
 
 	add_political_power = 1198
 	
@@ -98,21 +98,21 @@ set_politics = {
 			banned = yes #default is no
 		}
 		
-		neutrality = { 
-			popularity = 100
+		monarchism = { 
+			popularity = 90
 		}
 	}
 	
-	ruling_party = neutrality
+	ruling_party = monarchism
 	last_election = "1935.2.8"
 	election_frequency = 48
-	elections_allowed = yes
+	elections_allowed = no
 }
 
 set_convoys = 20
 set_stability = 0.55
 
-1939.1.1 = {
+1964.1.1 = {
 	set_politics = {
 
 		parties = {
@@ -130,12 +130,12 @@ set_stability = 0.55
 			banned = yes #default is no
 		}
 		
-		neutrality = { 
-			popularity = 100
+		monarchism = { 
+			popularity = 90
 		}
 	}
 	
-	ruling_party = neutrality
+	ruling_party = monarchism
 		last_election = "1939.2.8"
 		election_frequency = 48
 		elections_allowed = yes
@@ -148,7 +148,7 @@ create_country_leader = {
 	desc = "POLITICS_MUSTAFA_KEMAL_ATATÜRK_DESC"
 	picture = "Portrait_TUR_Osman_Fuad.dds"
 	expire = "1938.11.10"
-	ideology = despotism
+	ideology = monarchist_ideology
 	traits = {
 		#
 	}

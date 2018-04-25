@@ -37,7 +37,7 @@ if = {
 	add_to_tech_sharing_group = commonwealth_research
 }
 
-1939.1.1 = {
+1964.1.1 = {
 	add_political_power = 1198
 	oob = "AST_1939"
 	
@@ -175,22 +175,11 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Earle Page"
-	desc = "POLITICS_EARLE_PAGE_DESC"
-	picture = "GFX_AST_earle_page"
-	expire = "1965.1.1"
-	ideology = centrism
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
 	name = "Rod Hull"
 	desc = ""
 	picture = "Portrait_Australia_Rod_Hull.dds"
 	expire = "1965.1.1"
-	ideology = despotism
+	ideology = feudalism
 	traits = {
 		#
 	}

@@ -46,7 +46,7 @@ set_technology = {
 # DIPLOMACY / WAR 36
 	give_guarantee = ALB
 
-1939.1.1 = {
+1964.1.1 = {
 
 	add_political_power = 1198
 	
@@ -155,12 +155,12 @@ set_politics = {
 		communism = {
 			popularity = 2
 		}
-		neutrality = {
+		monarchism = {
 			popularity = 75
 		}
 	}
 	
-	ruling_party = neutrality
+	ruling_party = monarchism
 	last_election = "1934.3.26"
 	election_frequency = 60
 	elections_allowed = no
@@ -185,7 +185,7 @@ create_country_leader = {
 	desc = "POLITICS_BENITO_MUSSOLINI_DESC"
 	picture = "GFX_portrait_italy_ferruccio_parri"
 	expire = "1965.1.1"
-	ideology = socialism
+	ideology = conservatism
 	traits = {
 		
 	}
@@ -207,7 +207,7 @@ create_country_leader = {
 	desc = "POLITICS_BENITO_MUSSOLINI_DESC"
 	picture = "Portrait_ITA_Umbertoll_Savoy.dds"
 	expire = "1965.1.1"
-	ideology = despotism
+	ideology = monarchist_ideology
 	traits = {
 		
 	}

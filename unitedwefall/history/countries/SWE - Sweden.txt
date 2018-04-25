@@ -97,7 +97,7 @@ set_politics = {
 			popularity = 3
 		}
 
-		neutrality = {
+		monarchism = {
 			popularity  = 75
 		}
 
@@ -111,7 +111,7 @@ set_politics = {
 		
 	}
 	
-	ruling_party = neutrality
+	ruling_party = monarchism
 	last_election = "1932.9.18"
 	election_frequency = 48
 	elections_allowed = no
@@ -125,7 +125,7 @@ set_politics = {
 				popularity = 1
 			}
 
-			neutrality = {
+			monarchism = {
 				popularity  = 85
 			}
 
@@ -139,7 +139,7 @@ set_politics = {
 			
 		}
 		
-		ruling_party = neutrality
+		ruling_party = monarchism
 		last_election = "1936.9.20"
 		election_frequency = 48
 		elections_allowed = no
@@ -168,7 +168,7 @@ create_country_leader = {
 	desc = "POLITICS_SVEN_OLOV_LINDHOLM_DESC"
 	picture = "Portrait_SWE_Gustav_VI_Adolf.dds"
 	expire = "2006.1.1"
-	ideology = despotism
+	ideology = monarchist_ideology
 	traits = {
 		#
 	}

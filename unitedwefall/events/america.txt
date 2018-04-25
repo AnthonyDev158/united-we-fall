@@ -9,6 +9,13 @@ country_event = {
 
 	is_triggered_only = yes
 
+	trigger = {
+		tag = USA
+		AND = {
+			date > 1960.3.5
+		}
+	}
+
 	#CantHaltTheWalt
 	option  = {
 		name = america.1.a
@@ -117,6 +124,87 @@ country_event = {
 			#picture = "Portrait_USA_Raymond_Spraunce.dds"
 			expire = "2006.1.1"
 			ideology = stratocratic_dictator
+			traits = {
+				#
+			}
+		}
+	}
+}
+
+## 1960 ELECTION	
+
+country_event = {
+	id = america.3
+	title = america.3.t
+	desc = america.3.d
+	picture = GFX_news_event_006
+
+	is_triggered_only = yes
+
+	trigger = {
+		tag = USA
+		AND = {
+			date > 1960.11.8
+		}
+	}
+
+	option  = {
+		name = america.3.a
+		ai_chance = {
+			modifier = {
+				ai_will_do = 95
+			}
+		}
+	}
+	option  = {
+		name = america.3.b
+		ai_chance = {
+			modifier = {
+				ai_will_do = 2
+			}
+		}
+		create_country_leader = {
+			name = "Richard Nixon"
+			desc = "POLITICS_FRANKLIN_DELANO_ROOSEVELT_DESC"
+			picture = "Portrait_USA_Richard_Nixon.dds"
+			expire = "2006.1.1"
+			ideology = conservatism
+			traits = {
+				#
+			}
+		}
+	}
+	option  = {
+		name = america.3.c
+		ai_chance = {
+			modifier = {
+				ai_will_do = 1
+			}
+		}
+		create_country_leader = {
+			name = "John F. Kennedy"
+			desc = "POLITICS_FRANKLIN_DELANO_ROOSEVELT_DESC"
+			picture = "Portrait_USA_John_Kennedy.dds"
+			expire = "2006.1.1"
+			ideology = liberalism
+			traits = {
+				#
+			}
+		}
+	}
+	option  = {
+		name = america.3.d
+		ai_chance = {
+			modifier = {
+				ai_will_do = 1
+			}
+		}
+		create_country_leader = {
+			name = "Martin Luther King Jr."
+			desc = "POLITICS_FRANKLIN_DELANO_ROOSEVELT_DESC"
+			picture = "Portrait_USA_Martin_Luther_King.dds"
+			expire = "2006.1.1"
+			ideology = libertarianism
 			traits = {
 				#
 			}

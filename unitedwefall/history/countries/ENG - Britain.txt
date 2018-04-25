@@ -71,7 +71,7 @@ if = {
 	add_to_tech_sharing_group = commonwealth_research
 }
 
-1939.1.1 = {
+1964.1.1 = {
 
 	add_political_power = 1198
 	
@@ -272,7 +272,7 @@ create_country_leader = {
 	desc = "POLITICS_PALME_DUTT_DESC"
 	picture = "Portrait_Britain_Palme_Dutt.dds"
 	expire = "1965.1.1"
-	ideology = leninism
+	ideology = trotskyism
 	traits = {
 		
 	}

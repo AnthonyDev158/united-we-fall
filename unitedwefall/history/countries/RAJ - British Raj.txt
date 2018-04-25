@@ -36,7 +36,7 @@ set_convoys = 20
 
 set_cosmetic_tag = RAJ_UK # British Raj
 
-1939.1.1 = {
+1964.1.1 = {
 	
 	if = {
 		limit = {
@@ -133,7 +133,7 @@ set_politics = {
 			popularity = 80
 		}
 
-		neutrality = {
+		monarchism = {
 			popularity = 1
 		}
 	}
@@ -149,7 +149,7 @@ create_country_leader = {
 	desc = "POLITICS_LORD_LINLITHGOW_DESC"
 	picture = "gfx/leaders/RAJ/Portrait_British_Raj_Lord_Linlithgow.dds"
 	expire = "1965.1.1"
-	ideology = despotism
+	ideology = monarchist_ideology
 	traits = {
 		
 	}
@@ -183,7 +183,7 @@ create_country_leader = {
 	desc = "POLITICS_B_P_SITARAMAYYA_DESC"
 	picture = "GFX_RAJ_pattabhi_sitaramayya"
 	expire = "1965.1.1"
-	ideology = socialism
+	ideology = libertarianism
 	traits = {
 		
 	}

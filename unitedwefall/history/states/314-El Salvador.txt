@@ -22,7 +22,7 @@ state=
 			}
 		}
 		add_core_of = USA
-		add_core_of = ELS
+		add_core_of = GUA
 		victory_points = {
 			12823 3
 		}

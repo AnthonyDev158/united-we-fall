@@ -15,7 +15,7 @@ set_technology = {
 	CAS1 = 1
 }
 
-1939.1.1 = {
+1964.1.1 = {
 
 	add_political_power = 1198
 	
@@ -89,7 +89,7 @@ set_politics = {
 	elections_allowed = yes
 }
 
-1939.1.1 = {#next election october 39
+1964.1.1 = {#next election october 39
 	set_politics = {
 
 		parties = {
@@ -147,7 +147,7 @@ create_country_leader = {
 	desc = "POLITICS_MAX_LEO_KELLER_DESC"
 	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_1.dds" 
 	expire = "1965.1.1"
-	ideology = nazism
+	ideology = national_socialism
 	traits = {
 		#
 	}

@@ -11,11 +11,11 @@ state={
 	}
 
 	history={
-		owner = SAF
+		owner = BOE
 		buildings = {
 			infrastructure = 1
 		}
-		add_core_of = BOT
+		add_core_of = BOE
 
 	}
 

@@ -37,9 +37,14 @@ set_politics = {
 		communism = {
 			popularity = 7
 		}
-		neutrality = {
+		monarchism = {
 			popularity = 13
 		}
+
+		ruling_party = fascism
+		last_election = "1933.4.26"
+		election_frequency = 48
+		elections_allowed = no
 	}
 }
 
@@ -81,13 +86,13 @@ create_country_leader = {
 	desc = ""
 	picture = "gfx/leaders/Asia/Portrait_Asia_Generic_land_2.dds"
 	expire = "1953.3.1"
-	ideology = despotism
+	ideology = monarchist_ideology
 	traits = {
 		
 	}
 }
 
-1939.1.1 = {
+1964.1.1 = {
 	add_political_power = 1198
 
 	oob = "INS_1939" #straight copy of INS 1936

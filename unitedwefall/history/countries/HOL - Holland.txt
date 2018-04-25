@@ -23,7 +23,7 @@ set_technology = {
 }
 
 
-1939.1.1 = {
+1964.1.1 = {
 	add_ideas = {
 		limited_conscription
 	}
@@ -151,7 +151,7 @@ create_country_leader = {
 	desc = "POLITICS_HENDRIKUS_COLJIN_DESC"
 	picture = "GFX_portrait_holland_hendrikus_colijn"
 	expire = "1965.1.1"
-	ideology = centrism
+	ideology = monarchist_ideology
 	traits = {
 		#
 	}

@@ -8,7 +8,7 @@ set_technology = {
 
 set_convoys = 20
 
-1939.1.1 = {
+1964.1.1 = {
 
 	add_political_power = 1198
 	
@@ -75,12 +75,12 @@ set_politics = {
 			#banned = no #default is no
 		}
 		
-		neutrality = { 
+		monarchism = { 
 			popularity = 50
 		}
 	}
 	
-	ruling_party = neutrality
+	ruling_party = monarchism
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
@@ -110,7 +110,7 @@ create_country_leader = {
 	name = "Farouk I"
 	desc = ""
 	picture = "Portrait_EGY_Farouk_I.dds"
-	ideology = despotism
+	ideology = monarchist_ideology
 	traits = {
 		#
 	}
@@ -120,7 +120,7 @@ create_country_leader = {
 	name = "Hosni al-Arabi"
 	desc = ""
 	picture = "gfx/leaders/SAU/Portrait_Arabia_Generic_navy_3.dds"
-	ideology = leninism
+	ideology = trotskyism
 	traits = {
 		#
 	}

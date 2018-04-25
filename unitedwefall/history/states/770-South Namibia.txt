@@ -1,0 +1,20 @@
+
+state={
+	id=770
+	name="STATE_770"
+	manpower = 462000
+	
+	state_category = wasteland
+
+	history={
+		owner = BOE
+		buildings = {
+			infrastructure = 3
+		}
+		add_core_of = BOE
+	}
+
+	provinces={
+		2229 5154 5189 5203 7605 10963 
+	}
+}

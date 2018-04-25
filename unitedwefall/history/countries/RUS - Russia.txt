@@ -9,7 +9,7 @@ set_technology = {
 
 set_convoys = 10
 
-1939.1.1 = {
+1964.1.1 = {
 
 	add_political_power = 1198
 	
@@ -71,7 +71,7 @@ set_politics = {
 			popularity = 22
 			#banned = no #default is no
 		}
-		neutrality = {
+		monarchism = {
 			popularity = 5
 		}
 		stratocratic = {
@@ -101,7 +101,7 @@ create_country_leader = {
 	desc = "POLITICS_EDWIN_BARCLAY_DESC"
 	picture = "Portrait_RUS_Semyon_Timoshenko.dds"
 	expire = "2006.1.1"
-	ideology = stratocratic_dictator
+	ideology = stratocratic_dictatorship
 	traits = {
 		#
 	}
@@ -123,7 +123,7 @@ create_country_leader = {
 				popularity = 8
 				#banned = no #default is no
 			}
-			neutrality = {
+			monarchism = {
 				popularity = 17
 			}
 			stratocratic = {

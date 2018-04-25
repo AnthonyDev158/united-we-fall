@@ -2,7 +2,7 @@
 
 oob = "AUS_1958"
 
-set_research_slots = 3
+set_research_slots = 4
 
 set_technology = {
 	infantry_weapons = 1
@@ -17,7 +17,7 @@ set_technology = {
 set_politics = {
 
 	parties = {
-		neutrality = { 
+		monarchism = { 
 			popularity = 18
 		}
 
@@ -26,11 +26,23 @@ set_politics = {
 		}
 
 		democratic = {
-			popularity = 63
+			popularity = 46
 		}
 		
 		communism = {
 			popularity = 7
+		}
+		stratocratic = {
+			popularity = 2
+		}
+		populism = {
+			popularity = 12
+		}
+		theocratic = {
+			popularity = 5
+		}
+		criminal_syndicalism = {
+			popularity = 8
 		}
 	}
 	
@@ -47,7 +59,7 @@ create_country_leader = {
 	desc = "POLITICS_KURT_SCHUSCHNIGG_DESC"
 	picture = "Portrait_Austria_Kurt_Schuschnigg.dds"
 	expire = "1965.1.1"
-	ideology = centrism
+	ideology = monarchist_ideology
 	traits = {
 		#
 	}
@@ -69,7 +81,7 @@ create_country_leader = {
 	desc = "POLITICS_ARTHUR_SEYSS_INQUART_DESC"
 	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_3.dds"
 	expire = "1965.1.1"
-	ideology = nazism
+	ideology = national_socialism
 	traits = {
 		#
 	}

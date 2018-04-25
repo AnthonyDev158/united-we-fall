@@ -1,0 +1,21 @@
+state={
+	id=773
+	name="STATE_773"
+	
+	state_category = wasteland
+
+	history={
+		owner = FRK
+		buildings = {
+			infrastructure = 1
+
+		}
+
+	}
+
+	provinces={
+		4902 5136 10893 
+	}
+	manpower=1482744
+	buildings_max_level_factor=1.000
+}

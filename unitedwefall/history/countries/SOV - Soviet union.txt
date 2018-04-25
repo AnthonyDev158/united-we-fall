@@ -193,17 +193,12 @@ set_politics = {
 }
 
 
-add_ideas = {
-	trotskyite_plot
-	home_of_revolution
-}
-
 create_country_leader = {
 	name = "Leon Trotsky"
 	desc = "POLITICS_JOSEPH_STALIN_DESC"
 	picture = "Portrait_SOV_Leon_Trotsky.dds"
 	expire = "2006.1.1"
-	ideology = anti_revisionism
+	ideology = trotskyism
 	traits = {
 		
 	}

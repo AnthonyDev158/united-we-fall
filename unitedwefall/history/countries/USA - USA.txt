@@ -1,6 +1,6 @@
 ﻿capital = 361
 
-oob = "USA_1936"
+oob = "USA_1958"
 
 set_research_slots = 4
 set_stability = 0.75
@@ -132,7 +132,7 @@ give_guarantee = ARG
 
 set_autonomy = {
 	target = PAN
-	autonomy = autonomy_protectorate
+	autonomous_state = autonomy_protectorate
 }
 
 
@@ -218,7 +218,7 @@ create_country_leader = {
 	desc = "POLITICS_FRANKLIN_DELANO_ROOSEVELT_DESC"
 	#picture = "Portrait_USA_Walt_Disney.dds"
 	expire = "2006.1.1"
-	ideology = socialism
+	ideology = progressivism
 	traits = {
 		#
 	}
@@ -229,7 +229,7 @@ create_country_leader = {
 	desc = "POLITICS_FRANKLIN_DELANO_ROOSEVELT_DESC"
 	picture = "Portrait_USA_Ayden_Oredson.dds"
 	expire = "1960.3.5"
-	ideology = socialism
+	ideology = conservatism
 	traits = {
 		#
 	}
@@ -240,7 +240,7 @@ create_country_leader = {
 	desc = "POLITICS_WILLIAM_DUDLEY_PELLEY_DESC"
 	picture = "Portrait_USA_William_Dudley_Pelley.dds"
 	expire = "2006.1.1"
-	ideology = fascism_ideology
+	ideology = fascism
 	traits = {
 		
 	}
@@ -258,11 +258,11 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Huey Long"
+	name = "Omar Bradley"
 	desc = "POLITICS_WILLIAM_DUDLEY_PELLEY_DESC"
 	#picture = "Portrait_USA_Huey_Long.dds"
 	expire = "2006.1.1"
-	ideology = stratocratic_dictator
+	ideology = stratocratic_dictatorship
 	traits = {
 		
 	}

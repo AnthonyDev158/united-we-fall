@@ -22,7 +22,7 @@ set_technology = {
 	early_submarine = 1
 }
 
-1939.1.1 = {
+1964.1.1 = {
 
 	add_ideas = {
 		limited_conscription
@@ -99,7 +99,7 @@ set_politics = {
 			#banned = no #default is no
 		}
 		
-		neutrality = { 
+		monarchism = { 
 			popularity = 17
 		}
 	}
@@ -127,7 +127,7 @@ set_politics = {
 				#banned = no #default is no
 			}
 			
-			neutrality = { 
+			monarchism = { 
 				popularity = 20
 			}
 		}
@@ -167,7 +167,7 @@ create_country_leader = {
 	desc = ""
 	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_5.dds"
 	expire = "1965.1.1"
-	ideology = Despotism
+	ideology = monarchist_ideology
 	traits = {
 		#
 	}

@@ -7,18 +7,18 @@ bookmarks = {
 		default_country = "GER"
 		default = yes
 		
-		"FRA"={
-			history = "FRA_GATHERING_STORM_DESC"
-			ideology = communism
+		"GER"={
+			history = "GER_GATHERING_STORM_DESC"
+			ideology = neutrality
 			ideas = {
-				#FRA_victors_of_wwi
-				#FRA_disjointed_government
-				#FRA_protected_by_the_maginot_line
+				#sour_loser
+				#general_staff
+				#GER_mefo_bills_1
 			}
 			focuses = {
-				#FRA_initiate_government_reform
-				#FRA_support_status_quo
-				#FRA_revise_versailles
+				#GER_anschluss
+				#GER_danzig_or_war
+				#GER_revive_the_kaiserreich
 			}
 		}
 		"USA"={
@@ -35,6 +35,20 @@ bookmarks = {
 				#USA_pearl_harbor_gambit
 			}
 		}
+		"FRA"={
+			history = "FRA_GATHERING_STORM_DESC"
+			ideology = communism
+			ideas = {
+				#FRA_victors_of_wwi
+				#FRA_disjointed_government
+				#FRA_protected_by_the_maginot_line
+			}
+			focuses = {
+				#FRA_initiate_government_reform
+				#FRA_support_status_quo
+				#FRA_revise_versailles
+			}
+		}
 		"ENG"={
 			history = "ENG_GATHERING_STORM_DESC"
 			ideology = fascism
@@ -47,20 +61,6 @@ bookmarks = {
 				#tizard_mission_focus
 				#ENG_war_with_germany
 				#ENG_war_with_italy
-			}
-		}
-		"GER"={
-			history = "GER_GATHERING_STORM_DESC"
-			ideology = neutrality
-			ideas = {
-				#sour_loser
-				#general_staff
-				#GER_mefo_bills_1
-			}
-			focuses = {
-				#GER_anschluss
-				#GER_danzig_or_war
-				#GER_revive_the_kaiserreich
 			}
 		}
 		"ITA"={

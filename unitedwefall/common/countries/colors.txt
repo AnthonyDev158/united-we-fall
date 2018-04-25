@@ -572,3 +572,13 @@ TML = {
 	color = rgb { 125 125 255 }
 	color_ui = rgb { 125 125 255 }
 }
+
+TEX = {
+	color = rgb { 50 0 255 }
+	color_ui = rgb { 50 0 255 }
+}
+
+GUY = {
+	color = rgb { 19 143 54 }
+	color_ui = rgb { 19 143 54 }
+}

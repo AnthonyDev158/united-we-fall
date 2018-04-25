@@ -16,7 +16,7 @@ set_country_flag = monroe_doctrine
 
 set_convoys = 10
 
-1939.1.1 = {
+1964.1.1 = {
 
 	add_political_power = 1198
 	
@@ -106,7 +106,7 @@ create_country_leader = {
 	desc = "POLITICS_MARIANO_OSPINA_PEREZ_DESC"
 	picture = "gfx/leaders/South America/Portrait_South_America_Generic_land_2.dds"
 	expire = "2006.1.1"
-	ideology = centrism
+	ideology = monarchist_ideology
 	traits = {
 		#
 	}

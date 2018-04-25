@@ -180,6 +180,10 @@ set_autonomy = {
 	target = BAL
 	autonomous_state = autonomy_integrated_puppet
 }
+set_autonomy = {
+	target = LBA
+	autonomous_state = autonomy_integrated_puppet
+}
 
 set_politics = {
 
@@ -196,12 +200,12 @@ set_politics = {
 			popularity = 25
 			banned = yes #default is no
 		}
-		neutrality = {
+		monarchism = {
 			popularity = 10
 		}
 	}
 	
-	ruling_party = neutrality
+	ruling_party = monarchism
 	last_election = "1933.3.5"
 	election_frequency = 48
 	elections_allowed = no
@@ -227,16 +231,16 @@ add_ideas = GER_mefo_bills_1
 
 activate_mission = GER_mefo_bills_mission
 
-create_country_leader = {
-	name = "Adolf Hitler"
-	desc = "POLITICS_ADOLF_HITLER_DESC"
-	picture = "Portrait_Germany_Adolf_Hitler.dds"
-	expire = "1965.1.1"
-	ideology = nazism
-	traits = {
-		dictator
-	}
-}
+#create_country_leader = {
+	#name = "Adolf Hitler"
+	#desc = "POLITICS_ADOLF_HITLER_DESC"
+	#picture = "Portrait_Germany_Adolf_Hitler.dds"
+	#expire = "1965.1.1"
+	#ideology = nazism
+	#traits = {
+		#dictator
+	#}
+#}
 
 create_country_leader = {
 	name = "Konrad Adenauer"
@@ -265,7 +269,7 @@ create_country_leader = {
 	#desc = "POLITICS_ADOLF_HITLER_DESC"
 	picture = "Portrait_GER_Louis_Ferdinand.dds"
 	expire = "2006.1.1"
-	ideology = despotism
+	ideology = feudalism
 	traits = {
 		#
 	}
@@ -305,7 +309,7 @@ create_field_marshal = {
 	name = "Gerd von Rundstedt"
 	picture = "Portrait_Germany_Gerd_von_Rundstedt.dds"
 	traits = { defensive_doctrine offensive_doctrine old_guard }
-	skill = 3
+	skill = 7
 	attack_skill = 3
 	defense_skill = 2
 	planning_skill = 3
@@ -326,7 +330,7 @@ create_field_marshal = {
 }
 
 create_corps_commander = {
-	name = "Friedrich Paulus"
+	name = "Adolf Hitler"
 	picture = "Portrait_Germany_Friedrich_Paulus.dds"
 	traits = { trait_cautious armor_officer }
 	skill = 1

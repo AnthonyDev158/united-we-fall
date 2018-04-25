@@ -43,7 +43,7 @@ set_technology = {
 	fleet_in_being = 1
 }
 
-1939.1.1 = {
+1964.1.1 = {
 
 	add_political_power = 899
 
@@ -72,9 +72,6 @@ set_technology = {
 	complete_national_focus = FRA_algerie_france
 	complete_national_focus = FRA_colonial_industry
 	complete_national_focus = FRA_colonial_military_factories
-
-	give_guarantee = POL
-	ENG = { add_to_faction = FRA }
 
 	oob = "FRA_1939"
 	set_technology = {
@@ -159,7 +156,7 @@ set_politics = {
 	ruling_party = communism
 	last_election = "1932.5.1"
 	election_frequency = 48
-	elections_allowed = yes
+	elections_allowed =no
 }
 
 add_ideas = {
@@ -168,8 +165,6 @@ add_ideas = {
 	FRA_protected_by_the_maginot_line
 	limited_conscription
 }
-
-#give_guarantee = CZE
 
 #Order matters here Daladier will start as leaders because added last
 create_country_leader = {
@@ -188,7 +183,7 @@ create_country_leader = {
 	desc = "POLITICS_ÉDOUARD_DALADIER_DESC"
 	picture = "Portrait_France_Edouard_Daladier.dds"
 	expire = "1965.1.1"
-	ideology = socialism
+	ideology = conservatism
 	traits = {
 		stout_defender
 	}
@@ -198,7 +193,7 @@ create_country_leader = {
 	name = "Maurice Thorez"
 	desc = "POLITICS_MAURICE_THOREZ_DESC"
 	picture = "Portrait_FRA_Maurice_Thorez.dds"
-	expire = "1965.1.1"
+	expire = "2006.1.1"
 	ideology = 	stalinism
 	traits = {
 		

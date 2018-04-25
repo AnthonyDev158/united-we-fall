@@ -48,6 +48,11 @@ set_politics = {
 			popularity = 60
 		}		
 	}
+
+	ruling_party = communism
+	last_election = "1932.5.1"
+	election_frequency = 48
+	elections_allowed = no
 }
 
 create_country_leader = {
