@@ -11,12 +11,9 @@ state={
 	}
 
 	history={
-		owner = GER
+		owner = FRA
 		victory_points = {
 			575 5
-		}
-		victory_points = {
-			11483 10
 		}
 		victory_points = {
 			11548 15
@@ -29,8 +26,8 @@ state={
 				naval_base = 6
 			}
 		}
-		add_core_of = GER
 		add_core_of = FRA
+		add_core_of = FRK
 		1939.1.1 = {
 			buildings = {
 				industrial_complex = 6
@@ -39,6 +36,6 @@ state={
 	}
 
 	provinces={
-		454 575 3402 3447 3476 3536 6504 6585 9500 9561 11420 11483 11548 11549 11606 
+		454 575 3402 3476 3536 6504 6585 9500 9561 11420 11548
 	}
 }
