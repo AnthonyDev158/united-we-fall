@@ -9,10 +9,11 @@ country_event = {
 
 	option = {
 		name = russia.1.a
-		add_party_popularity = {
-			stratocratic = 40
-			set_ruling_party = stratocratic
+		add_popularity = {
+			ideology = stratocratic
+			popularity = 40
 		}
+		set_ruling_party = stratocratic
 		set_cosmetic_tag = RUS_KERENSKY_DIED
 	}
 }

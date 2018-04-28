@@ -12,7 +12,7 @@ country_event = {
 	trigger = {
 		tag = USA
 		AND = {
-			date > 1960.3.5
+			date >= 1960.3.5
 		}
 	}
 
@@ -54,6 +54,15 @@ country_event = {
 			USA_oredson_assassinated
 			USA_military_rule
 		}
+		add_popularity = {
+			ideology = stratocratic
+			popularity = 40
+		}
+		add_party_popularity = {
+			ideology = criminal_syndicate
+			popularity = 15
+		}
+		set_ruling_party = stratocratic
 		USA = { country_event = { days = 1 id = america.2 } }
 		hidden_effect = {
 			news_event = { hours = 12 id = uwfnews.3 }
@@ -144,10 +153,11 @@ country_event = {
 	trigger = {
 		tag = USA
 		AND = {
-			date > 1960.11.8
+			date >= 1960.11.8
 		}
 	}
 
+	## Oredson Choice (In case you didn't know)
 	option  = {
 		name = america.3.a
 		ai_chance = {

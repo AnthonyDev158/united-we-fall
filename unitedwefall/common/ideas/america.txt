@@ -8,7 +8,7 @@ ideas = {
 			removal_cost = -1
 
 			modifier = {
-				neutrality_drift = 0.05
+				monarchism_drift = 0.05
 			}
 		}
 		USA_economic_upturn = {
